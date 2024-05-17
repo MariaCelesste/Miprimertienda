@@ -456,26 +456,25 @@ footer h2 {
 /**---MAIN CONTACTO--**/
 .formulario {
     background-color: antiquewhite;
+    
+
 }
 
 .formulario h2 {
     text-align: center;
-
     font-size: 40;
     font-weight: 100px;
     color: rgb(98, 69, 30);
-    ;
     background-color: rgb(246, 220, 185);
     padding: 20px;
+    
 }
 
 .formulario p {
     text-align: center;
-
     font-size: 40;
     font-weight: 100px;
     background-color: rgb(246, 220, 185);
-    ;
     padding: 20px;
 }
 
@@ -484,7 +483,6 @@ footer h2 {
     font-size: 15px;
     font-weight: 100px;
     background-color: rgb(246, 220, 185);
-    ;
     color: burlywood;
     margin-bottom: 10px;
     text-align: center;
@@ -504,7 +502,6 @@ footer h2 {
     font-size: 15px;
     font-weight: 100px;
     background-color: rgb(246, 220, 185);
-    ;
     color: burlywood;
     margin-bottom: 10px;
     text-align: center;
@@ -513,6 +510,7 @@ footer h2 {
 
 .maps {
     background-color: antiquewhite;
+   
 }
 
 .maps h2 {
@@ -523,11 +521,12 @@ footer h2 {
     color: rgb(98, 69, 30);
     text-align: center;
     padding: 10px;
-    background-color: rgb(246, 220, 185)
+    background-color: rgb(246, 220, 185);
 }
 
 .maps h2 iframe {
     display: inline-block;
+   
 }
 
 /**---MAIN PRODUCTOS---*/
@@ -658,6 +657,8 @@ main h2 {
 
 .texto {
     background-color: antiquewhite;
+    
+  
 }
 
 .texto h1 {
