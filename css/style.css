@@ -454,27 +454,23 @@ footer h2 {
 
 
 /**---MAIN CONTACTO--**/
-.formulario {
-    background-color: antiquewhite;
-    
 
-}
 
 .formulario h2 {
     text-align: center;
     font-size: 40;
     font-weight: 100px;
     color: rgb(98, 69, 30);
-    background-color: rgb(246, 220, 185);
+    background-color: rgb(240, 222, 200);
     padding: 20px;
-    
+
 }
 
 .formulario p {
     text-align: center;
     font-size: 40;
     font-weight: 100px;
-    background-color: rgb(246, 220, 185);
+    background-color: rgb(240, 222, 200);
     padding: 20px;
 }
 
@@ -482,7 +478,7 @@ footer h2 {
 
     font-size: 15px;
     font-weight: 100px;
-    background-color: rgb(246, 220, 185);
+    background-color: rgb(240, 222, 200);
     color: burlywood;
     margin-bottom: 10px;
     text-align: center;
@@ -501,17 +497,15 @@ footer h2 {
 
     font-size: 15px;
     font-weight: 100px;
-    background-color: rgb(246, 220, 185);
+    background-color: rgb(240, 222, 200));
     color: burlywood;
     margin-bottom: 10px;
     text-align: center;
 
 }
 
-.maps {
-    background-color: antiquewhite;
-   
-}
+
+
 
 .maps h2 {
 
@@ -521,13 +515,135 @@ footer h2 {
     color: rgb(98, 69, 30);
     text-align: center;
     padding: 10px;
-    background-color: rgb(246, 220, 185);
+    background-color: rgb(240, 222, 200);
 }
 
 .maps h2 iframe {
     display: inline-block;
-   
+
 }
+@media screen and (max-width:900px) {
+    .formulario h2 {
+        font-size: 22px;
+        font-weight: 90px;
+        padding: 12px;
+    }
+
+    .formulario p {
+
+        font-size: 35;
+        font-weight: 90px;
+        padding: 12px;
+    }
+
+    .formulario form div input {
+
+        font-size: 15px;
+        font-weight: 95px;
+        margin-bottom: 9px;
+       
+    }
+
+    .formulario form div label {
+
+        font-size: 12px;
+        font-weight: 95px;
+        margin-bottom: 9px;
+       
+    }
+
+    .formulario div select option {
+
+        font-size: 18px;
+        font-weight: 95px;
+        margin-bottom: 12px;
+  
+
+    }
+
+}
+@media screen and (max-width:900px) {
+
+    .maps h2 {
+
+        font-size: 18px;
+        font-weight: 95px;
+        margin-bottom: 12px;
+
+        padding: 9px;
+
+    }
+
+    .maps h2 iframe {
+        display: inline-block;
+    }
+
+}
+
+
+@media screen and (max-width:600px) {
+    .formulario h2 {
+        font-size: 20px;
+        font-weight: 80px;
+        padding: 10px;
+    }
+
+    .formulario p {
+
+        font-size: 30;
+        font-weight: 80px;
+        padding: 10px;
+    }
+
+    .formulario form div input {
+
+        font-size: 12px;
+        font-weight: 90px;
+        margin-bottom: 8px;
+       
+    }
+
+    .formulario form div label {
+
+        font-size: 10px;
+        font-weight: 90px;
+        margin-bottom: 8px;
+       
+    }
+
+    .formulario div select option {
+
+        font-size: 15px;
+        font-weight: 90px;
+        margin-bottom: 10px;
+  
+
+    }
+
+}
+
+@media screen and (max-width:600px) {
+
+    .maps h2 {
+
+        font-size: 15px;
+        font-weight: 90px;
+        margin-bottom: 10px;
+
+        padding: 8px;
+
+    }
+
+    .maps h2 iframe {
+        display: inline-block;
+    }
+
+}
+
+
+
+
+
 
 /**---MAIN PRODUCTOS---*/
 main h2 {
@@ -548,7 +664,6 @@ main h2 {
     grid-template-columns: 1Fr 1Fr 1fr 1fr;
     row-gap: 30px;
     column-gap: 30px;
-    background-color: antiquewhite;
     padding: 10px;
 }
 
@@ -556,14 +671,19 @@ main h2 {
     width: 200PX;
     height: 200px;
     object-fit: cover;
+    border-radius: 5px;
+
 }
 
 .articulos div a {
-    background-color: bisque;
+    background-color: rgb(249, 233, 214);
     text-decoration: none;
     color: rgb(98, 69, 30);
     font-size: 20px;
     text-align: center;
+    border-radius: 5px;
+    margin-top: 10px;
+
 
 }
 
@@ -655,11 +775,7 @@ main h2 {
 /**----MAIN NOSOTRAS**/
 
 
-.texto {
-    background-color: antiquewhite;
-    
-  
-}
+.texto {}
 
 .texto h1 {
 
@@ -680,17 +796,25 @@ main h2 {
 }
 
 /**MAIN INFOEXTRA*/
+.piedrasenergeticas {
+    background-image: url(../img/cuarzos.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: auto;
+
+}
 
 .piedrasenergeticas h2 {
-
     font-weight: 100px;
     font-size: 30px;
     color: rgb(98, 69, 30);
     text-align: center;
+
 }
 
 .piedrasenergeticas h3 {
-
     font-weight: 100px;
     font-size: 20px;
     color: rgb(98, 69, 30);
@@ -704,19 +828,6 @@ main h2 {
     color: antiquewhite;
     text-align: center;
 
-}
-
-.piedrasenergeticas {
-    background-image: url(../img/cuarzos.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 300px;
-
-}
-
-.info {
-    background-color: antiquewhite;
 }
 
 .info p {
