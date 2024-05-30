@@ -1,0 +1,307 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Truculenta:opsz,wght@12..72,100..900&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.fixed img {
+  width: 40px;
+  position: fixed;
+  bottom: 15px;
+  right: 30px;
+}
+
+main .bienvenidos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .grid-galeria {
+  width: 100%;
+  margin-top: 50px;
+  display: grid;
+  grid-template-rows: 300px 300px;
+  grid-template-columns: 1fr 1fr;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  row-gap: 50px;
+}
+main .grid-galeria div {
+  position: relative;
+}
+main .grid-galeria div img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-box-shadow: -14px 1px 38px -25px rgb(42, 45, 61);
+  -moz-box-shadow: -14px 1px 38px -25px rgb(42, 45, 61);
+}
+main .grid-galeria div h2 {
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.2078431373);
+  color: bisque;
+}
+main .grid-galeria div h2 a {
+  background-color: bisque;
+  text-decoration: none;
+  color: rgb(98, 69, 30);
+  font-size: 20px;
+}
+main .productosdestacados h2 {
+  margin-top: 30px;
+  padding: 20px;
+  text-align: center;
+  font-size: 40;
+  font-weight: 100px;
+  color: rgb(98, 69, 30);
+  background-color: rgb(248, 232, 216);
+}
+main .productosdestacados .producto {
+  display: grid;
+  width: 100%;
+  margin-top: 50px;
+  display: grid;
+  grid-template-rows: 200px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  row-gap: 50px;
+}
+main .productosdestacados .producto div {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+main .productosdestacados .producto div img {
+  width: 200px;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-top: 20px;
+  -webkit-box-shadow: -14px 1px 38px -25px rgb(42, 45, 61);
+  -moz-box-shadow: -14px 1px 38px -25px rgb(42, 45, 61);
+}
+main .productosdestacados .producto div h3 {
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 100px;
+  color: rgb(98, 69, 30);
+}
+main .productosdestacados .producto div a {
+  background-color: bisque;
+  text-decoration: none;
+  color: rgb(98, 69, 30);
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+main .showroom {
+  text-align: center;
+  height: 600px;
+  margin-top: 100px;
+  background-image: url(../img/principal.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: blanchedalmond;
+  background-color: antiquewhite;
+}
+main .showroom h2 {
+  color: burlywood;
+  font-size: 50px;
+  font-weight: 200px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+main .showroom p {
+  color: burlywood;
+  margin-bottom: 40px;
+  font-size: 30px;
+  font-weight: 100px;
+}
+main .showroom a {
+  background-color: white;
+  text-decoration: none;
+  color: burlywood;
+  padding: 10px 10px 10px 10px;
+}
+main .envios {
+  text-decoration: none;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-around;
+}
+main .envios div {
+  order: 2px gray solid;
+  width: 200px;
+  height: 300px;
+  text-align: center;
+  margin: 20px;
+}
+main .envios div img {
+  width: 100px;
+  height: auto;
+}
+main .envios div h3 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+main .envios div p {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+main .formulario h2 {
+  text-align: center;
+  font-size: 40;
+  font-weight: 100px;
+  color: rgb(98, 69, 30);
+  background-color: rgb(240, 222, 200);
+  padding: 20px;
+}
+main .formulario p {
+  text-align: center;
+  font-size: 40;
+  font-weight: 100px;
+  background-color: rgb(240, 222, 200);
+  padding: 20px;
+}
+main .formulario form div label {
+  font-size: 20px;
+  font-weight: 120px;
+  color: burlywood;
+  margin-bottom: 10px;
+  text-align: center;
+}
+main .formulario form div input {
+  font-size: 15px;
+  font-weight: 100px;
+  background-color: rgb(240, 222, 200);
+  color: burlywood;
+  margin-bottom: 10px;
+  text-align: center;
+}
+main .formulario form div select option {
+  font-size: 15px;
+  font-weight: 100px;
+  background-color: rgb(240, 222, 200);
+  color: burlywood;
+  margin-bottom: 10px;
+  text-align: center;
+}
+main .maps h2 {
+  font-size: 25px;
+  font-weight: 100px;
+  margin-bottom: 10px;
+  color: rgb(98, 69, 30);
+  text-align: center;
+  padding: 10px;
+  background-color: rgb(240, 222, 200);
+}
+main .maps iframe {
+  display: inline-block;
+}
+
+main h2 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 50px;
+  color: rgb(98, 69, 30);
+  background-color: rgb(246, 220, 185);
+}
+main .articulos {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-rows: 250px;
+  grid-template-columns: 1Fr 1Fr 1fr 1fr;
+  row-gap: 30px;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+  padding: 10px;
+}
+main .articulos .deco img {
+  width: 200PX;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 5px;
+}
+main .articulos .deco a {
+  background-color: rgb(249, 233, 214);
+  text-decoration: none;
+  color: rgb(98, 69, 30);
+  font-size: 20px;
+  text-align: center;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+main .texto h1 {
+  font: weight 100px;
+  font-size: 25px;
+  color: burlywood;
+  text-align: center;
+}
+main .texto p {
+  font-weight: 100px;
+  font-size: 20px;
+  color: burlywood;
+  margin-inline: 10px;
+  margin-right: 10px;
+  margin: 10px;
+}
+
+main .piedrasenergeticas {
+  background-image: url(../img/cuarzos.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  width: auto;
+}
+main .piedrasenergeticas h2 {
+  font-weight: 100px;
+  font-size: 30px;
+  color: rgb(98, 69, 30);
+  text-align: center;
+}
+main .piedrasenergeticas h3 {
+  font-weight: 100px;
+  font-size: 20px;
+  color: rgb(98, 69, 30);
+  text-align: center;
+}
+main .piedrasenergeticas h4 {
+  font-weight: 100px;
+  font-size: 20px;
+  color: antiquewhite;
+  text-align: center;
+}
+main .info p {
+  font-weight: 100px;
+  font-size: 20px;
+  color: burlywood;
+  margin-inline: 10px;
+  margin-right: 10px;
+  margin: 10px;
+}
+
+footer {
+  background: cover;
+}
+footer h2 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 50px;
+  color: rgb(98, 69, 30);
+  background-color: rgb(248, 232, 216);
+}
+footer div a img {
+  width: 30px;
+  height: 30px;
+  margin: 10px 10px 10px 10px;
+}/*# sourceMappingURL=estilos.css.map */
